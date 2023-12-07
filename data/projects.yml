@@ -1,8 +1,8 @@
 - name: Suite Fit
   description: A moving app that allows users to see
     if their furniture/items will fit in an apartment before moving.
-  image: projects/fitting_page.png
-  url: https://www.google.com
+  image: projects/sf_landing.png
+  url: https://www.suitefit.tech
   days: 10
   developers: 4
   cups: 57
@@ -10,16 +10,16 @@
 - name: Knight Time
   description: A fun app that allows users to host
     and book a one-of-a-kind medieval experience
-  image: projects/placeholder.png
-  url: https://www.google.com
+  image: projects/KnightTime.png
+  url: https://knight-time-f246419c41c0.herokuapp.com
   days: 5
   developers: 4
   cups: 25
 
 - name: Movie Watch List
   description: An app that lets the user create a list of movies
-  image: projects/placeholder.png
-  url: https://www.google.com
+  image: projects/watchlist.png
+  url: https://immense-eyrie-16070-cb147c2a5900.herokuapp.com
   days: 1
   developers: 1
   cups: 7
@@ -31,3 +31,11 @@
   days: 1
   developers: 1
   cups: 1
+
+- name: Secret Project
+  description: Currently working on a new project. Stay tuned!
+  image: projects/top-secret.png
+  url: https://www.google.com
+  days: TDB
+  developers: 5
+  cups: TBD
