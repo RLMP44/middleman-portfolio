@@ -18,14 +18,14 @@
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
   .card {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
   }
 }
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
   .card {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 
   .card h2 {
@@ -34,9 +34,5 @@
 
   .card .stats var {
     min-width: 90px;
-  }
-
-  .card button {
-    min-width: 160px;
   }
 }

@@ -20,9 +20,9 @@ body {
 .card {
   display: flex;
   // width: 75vw;
-  max-width: 650px;
+  max-width: 550px;
   padding: 50px;
-  margin: 80px 40px;
+  margin: 10px 40px;
   width: 100%;
   background: #ffffff;
   border-radius: 24px;
@@ -31,12 +31,12 @@ body {
 }
 
 .card img {
-  max-width: 280px;
+  max-width: 200px;
   width: 32vw;
   height: 270px;
   object-fit: cover;
   margin-left: -60px;
-  margin-right: 40px;
+  margin-right: 20px;
   border-radius: inherit;
 }
 
@@ -73,7 +73,7 @@ body {
   padding: 16px 20px;
   font-size: 18px;
   border-radius: 6px;
-  min-width: 120px;
+  min-width: 160px;
 }
 
 .card button.primary {
