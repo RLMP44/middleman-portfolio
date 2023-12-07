@@ -1,6 +1,48 @@
-<div class="row justify-content-center banner">
+<%# <div class="row justify-content-center banner">
   <div class="col-12 d-flex flex-column justify-content-center align-items-center h-100">
     <%= image_tag 'placeholder.png', alt: "profile photo", class: 'avatar' %>
-    <h1 class="title-main">Portfolio</h1>
-  </div>
-</div>
+    <%# <h1 class="title-main">Portfolio</h1> %>
+  <%# </div> %>
+<%# </div> %>
+
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  viewBox="0 24 150 28"
+  preserveAspectRatio="none"
+>
+  <defs>
+    <path
+      id="gentle-wave"
+      d="M-160 44c30 0
+    58-18 88-18s
+    58 18 88 18
+    58-18 88-18
+    58 18 88 18
+    v44h-352z"
+    />
+  </defs>
+  <g class="waves">
+    <use
+      xlink:href="#gentle-wave"
+      x="50"
+      y="0"
+      fill="#03ffff"
+      fill-opacity=".2"
+    />
+    <use
+      xlink:href="#gentle-wave"
+      x="50"
+      y="3"
+      fill="#03ffff"
+      fill-opacity=".5"
+    />
+    <use
+      xlink:href="#gentle-wave"
+      x="50"
+      y="6"
+      fill="#03ffff"
+      fill-opacity=".9"
+    />
+  </g>
+</svg>

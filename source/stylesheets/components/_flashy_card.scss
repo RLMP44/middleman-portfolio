@@ -12,9 +12,13 @@ body {
   align-items: center;
   justify-content: center;
   margin: 0;
-  background: linear-gradient(-140deg, #ff65c5, #fa909d, #fcce6c);
+  background-repeat: no-repeat;
+  background-image: linear-gradient(-140deg, #323232, #0D7377, #14FFEC);
   color: #575556;
   font-family: "Euclid Circular A", "Poppins";
+  background-position: top center;
+  background-attachment: fixed;
+  width: 100%;
 }
 
 .card {
@@ -77,7 +81,7 @@ body {
 }
 
 .card button.primary {
-  background: #fe5c89;
+  background: #0D7377;
   color: #f9f9f9;
   border: 0;
 }

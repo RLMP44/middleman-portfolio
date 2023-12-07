@@ -1,7 +1,7 @@
 - name: Suite Fit
   description: A moving app that allows users to see
     if their furniture/items will fit in an apartment before moving.
-  image: projects/placeholder.png
+  image: projects/fitting_page.png
   url: https://www.google.com
   days: 10
   developers: 4
