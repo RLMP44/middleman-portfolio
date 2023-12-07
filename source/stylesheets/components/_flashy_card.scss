@@ -1,5 +1,5 @@
-.card body,
-.card html {
+body,
+html {
   height: 100%;
 }
 
@@ -7,7 +7,7 @@
   box-sizing: border-box;
 }
 
-.card body {
+body {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -19,12 +19,15 @@
 
 .card {
   display: flex;
-  align-items: center;
-  width: 75vw;
+  // width: 75vw;
   max-width: 650px;
-  padding: 50px 30px 50px 20px;
+  padding: 50px;
+  margin: 80px 40px;
+  width: 100%;
   background: #ffffff;
   border-radius: 24px;
+  justify-content: center;
+  flex-direction: row;
 }
 
 .card img {
@@ -79,35 +82,6 @@
   border: 0;
 }
 
-// @media (min-width: 720px) {
-//   .card {
-//     margin: 0 40px;
-//     padding-left: 50px;
-//     padding-right: 50px;
-//     width: 100%;
-//     text-align: center;
-//     flex-direction: column;
-//   }
-
-//   .card h2 {
-//     font-size: 30px;
-//   }
-
-//   .card img {
-//     margin: -100px 0 30px 0;
-//     width: 100%;
-//     max-width: 1000px;
-//   }
-
-//   .card .stats var {
-//     min-width: 90px;
-//   }
-
-//   .card button {
-//     min-width: 160px;
-//   }
-// }
-
 .card .stats {
   display: flex;
   gap: 24px;
@@ -124,158 +98,4 @@
 
 .card .stats label {
   opacity: 0.5;
-}
-
-// Agency Index page
-.card-flashy-agency body,
-html {
-  height: 100%;
-}
-
-.agency-index {
-  padding-left: 90px;
-  margin-top: 20px;
-  margin-bottom: -20px;
-}
-
-.global-stats {
-  margin-left: 80px;
-  border: 0;
-  background: #48b6de;
-  color: #48b6de;
-  font-family: inherit;
-  padding: 16px 32px;
-  color: black;
-  font-size: 16px;
-  border-radius: 40px;
-  border: solid white;
-  border-width: 2px;
-  text-align: center;
-}
-
-.flashy-container {
-  background-color: rgb(236, 236, 236);
-}
-
-.card-flashy-agency * {
-  box-sizing: border-box;
-}
-
-.card-flashy-agency body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0;
-  background: #efecff;
-  background-size: 16px 16px;
-  font-family: "Euclid Circular A", "Poppins";
-}
-
-.card-flashy-agency {
-  position: relative;
-  display: flex;
-  align-items: center;
-  margin: 50px 40px 20px 50px;
-  width: 75vw;
-  max-width: 600px;
-  padding: 50px 30px 50px 20px;
-  background: white;
-  border-radius: 24px;
-  border: solid #48b6de;
-  border-width: 2px;
-}
-
-.img-flashy-agency {
-  max-width: 280px;
-  width: 28vw;
-  height: 300px;
-  object-fit: cover;
-  margin-left: -60px;
-  margin-right: 30px;
-  border-radius: inherit;
-  box-shadow: 0px 60px 40px rgba(0, 0, 0, 0.08);
-}
-
-.card-flashy-agency h2 {
-  margin-right: 0;
-  font-size: 26px;
-}
-
-.card-flashy-agency h3 {
-  font-size: 16px;
-  font-weight: 400;
-  color: rgba(0, 0, 0, 0.9);
-}
-
-.card-flashy-agency p {
-  font-size: 14px;
-  font-weight: 400;
-  color: rgba(0, 0, 0, 0.7);
-  margin-bottom: 24px;
-}
-
-.button-flashy-agency {
-  border: 0;
-  background: white;
-  color: #48b6de;
-  font-family: inherit;
-  padding: 16px 32px;
-  font-size: 16px;
-  border-radius: 40px;
-  border: solid #48b6de;
-  border-width: 2px;
-  text-align: center;
-  &:hover {
-    background: #48b6de;
-    transition: 1s;
-  }
-}
-
-.flashy-edit-button {
-  position: absolute;
-  background: white;
-  top: 14px;
-  right: 14px;
-  padding: 7px 7px;
-  border: solid #48b6de;
-  border-width: 2px;
-  border-radius: 50%;
-  &:hover {
-    background: #48b6de;
-    transition: 1s;
-  }
-}
-
-.flashy-edit-button-agency-show {
-  position: absolute;
-  background: rgb(142, 215, 242);
-  top: 7px;
-  right: 7px;
-  padding: 9px 9px;
-  border: solid white;
-  border-width: 2px;
-  border-radius: 50%;
-  &:hover {
-    background: #48b6de;
-    transition: 1s;
-  }
-}
-
-.flashy-delete-button-agency-show {
-  position: absolute;
-  background: rgb(142, 215, 242);
-  top: 50px;
-  right: 7px;
-  padding: 9px 9px;
-  border: solid white;
-  border-width: 2px;
-  border-radius: 50%;
-  &:hover {
-    background: #48b6de;
-    transition: 1s;
-  }
-}
-
-.stats-title {
-  font-size: 24;
 }

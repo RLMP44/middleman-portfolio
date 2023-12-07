@@ -7,3 +7,36 @@
 @import "form_legend_clear";
 @import "navbar";
 @import "flashy_card";
+
+// Smallest device
+@media (min-width: 100px) and (max-width: 575px) {
+  .card {
+    grid-template-columns: 1fr;
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  .card {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .card {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .card h2 {
+    font-size: 30px;
+  }
+
+  .card .stats var {
+    min-width: 90px;
+  }
+
+  .card button {
+    min-width: 160px;
+  }
+}
