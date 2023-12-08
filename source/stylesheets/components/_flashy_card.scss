@@ -13,10 +13,12 @@ body {
   justify-content: center;
   margin: 0;
   background-repeat: no-repeat;
-  background-image: linear-gradient(-140deg, #323232, #0D7377, #14FFEC);
+  // background-image: linear-gradient(-140deg, #323232, #0D7377, #14FFEC);
+  background-image: url("../../images/projects/paper-background.jpg");
   color: #575556;
   font-family: "Euclid Circular A", "Poppins";
-  background-position: top center;
+  background-position: center;
+  background-size: cover;
   background-attachment: fixed;
   width: 100%;
 }
@@ -28,10 +30,14 @@ body {
   padding: 50px;
   margin: 10px 40px;
   width: 100%;
-  background: #ffffff;
+  background: transparent;
   border-radius: 24px;
   justify-content: center;
   flex-direction: row;
+  background-image: url("../../images/projects/lines-border (2).png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: 0;
 }
 
 .card img {
@@ -60,7 +66,7 @@ body {
 .card p {
   font-size: 14px;
   font-weight: 400;
-  color: rgba(0, 0, 0, 0.7);
+  color: black;
   margin-bottom: 24px;
 }
 
@@ -70,9 +76,9 @@ body {
 }
 
 .card button {
-  border: 1px solid #a7a7a7;
+  border: 1px solid #c6983d;
   background: transparent;
-  color: #a7a7a7;
+  color: #c6983d;
   font-family: inherit;
   padding: 16px 20px;
   font-size: 18px;
@@ -81,7 +87,7 @@ body {
 }
 
 .card button.primary {
-  background: #0D7377;
+  background: #c6983d;
   color: #f9f9f9;
   border: 0;
 }
