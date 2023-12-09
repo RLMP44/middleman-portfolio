@@ -3,6 +3,7 @@
     if their furniture/items will fit in an apartment before moving.
   image: projects/sf_landing.png
   url: https://www.suitefit.tech
+  code_url: https://github.com/RLMP44/SuiteFit
   days: 10
   developers: 4
   cups: 57
@@ -12,6 +13,7 @@
     and book a one-of-a-kind medieval experience
   image: projects/KnightTime.png
   url: https://knight-time-f246419c41c0.herokuapp.com
+  code_url: https://github.com/herah-s/KnightTime
   days: 5
   developers: 4
   cups: 25
@@ -20,6 +22,7 @@
   description: An app that lets the user create a list of movies
   image: projects/watchlist.png
   url: https://immense-eyrie-16070-cb147c2a5900.herokuapp.com
+  code_url: https://github.com/RLMP44/rails-watch-list
   days: 1
   developers: 1
   cups: 7
@@ -28,6 +31,7 @@
   description: Look up all sorts of gifs and enjoy the display!
   image: projects/placeholder.png
   url: https://www.google.com
+  code_url: https://github.com/RLMP44/workshop
   days: 1
   developers: 1
   cups: 1
@@ -36,6 +40,7 @@
   description: Currently working on a new project. Stay tuned!
   image: projects/top-secret.png
   url: https://www.google.com
+  code_url: https://github.com/RLMP44
   days: TDB
   developers: 5
   cups: TBD
