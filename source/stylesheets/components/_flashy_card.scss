@@ -76,9 +76,9 @@ body {
 }
 
 .button {
-  border: 1px solid #c6983d;
+  border: 1px solid black;
   background: transparent;
-  color: #c6983d;
+  color: black;
   font-family: inherit;
   padding: 16px 20px;
   font-size: 18px;
@@ -86,12 +86,19 @@ body {
   min-width: 160px;
   text-decoration: none;
   text-align: center;
+  &:hover {
+    color: black;
+  }
 }
 
 .button.primary {
-  background: #c6983d;
+  background: black;
   color: #f9f9f9;
   border: 0;
+  &:hover {
+    box-shadow: 1px 1px 20px black;
+    transition: 2.5s;
+  }
 }
 
 .card .stats {
