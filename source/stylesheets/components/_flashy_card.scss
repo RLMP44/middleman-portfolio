@@ -75,7 +75,7 @@ body {
   gap: 10px;
 }
 
-.card button {
+.button {
   border: 1px solid #c6983d;
   background: transparent;
   color: #c6983d;
@@ -84,9 +84,11 @@ body {
   font-size: 18px;
   border-radius: 6px;
   min-width: 160px;
+  text-decoration: none;
+  text-align: center;
 }
 
-.card button.primary {
+.button.primary {
   background: #c6983d;
   color: #f9f9f9;
   border: 0;

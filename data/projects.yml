@@ -8,7 +8,7 @@
   developers: 4
   cups: 57
 
-- name: Knight Time
+- name: KnightTime
   description: A fun app that allows users to host
     and book a one-of-a-kind medieval experience
   image: projects/KnightTime.png
