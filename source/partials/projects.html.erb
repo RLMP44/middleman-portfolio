@@ -1,5 +1,12 @@
 <div class="cards">
   <% data.projects.each_with_index do |project, index| %>
+    <%# set card alignment %>
+    <%# if index % 2 == 0 %>
+    <%# card_type = card-left %>
+    <%# else %>
+    <%# card_type = card-right %>
+    <%# end %>
+    <%# create cards %>
     <div class="card">
       <%= image_tag project.image, alt: "project image" %>
       <div>

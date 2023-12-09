@@ -40,14 +40,23 @@ body {
   border: 0;
 }
 
+.card-right {
+  flex-direction: row-reverse;
+}
+
 .card img {
   max-width: 200px;
   width: 32vw;
   height: 270px;
-  object-fit: cover;
   margin-left: -60px;
   margin-right: 20px;
+  object-fit: cover;
   border-radius: inherit;
+}
+
+.card-right img {
+  margin-left: 20px;
+  margin-right: -60px;
 }
 
 .card h2 {
@@ -88,6 +97,15 @@ body {
   text-align: center;
   &:hover {
     color: black;
+    box-shadow: inset black 1px 1px 10px,
+      inset black -1px -1px 10px,
+      inset black -1px 1px 10px,
+      inset black 1px -1px 10px,
+      1px 1px 10px black,
+      -1px -1px 10px black,
+      1px -1px 10px black,
+      1px -1px 10px black;
+    transition: 3s;
   }
 }
 
@@ -96,7 +114,10 @@ body {
   color: #f9f9f9;
   border: 0;
   &:hover {
-    box-shadow: 1px 1px 20px black;
+    box-shadow: 1px 1px 10px black,
+      -1px -1px 10px black,
+      1px -1px 10px black,
+      1px -1px 10px black;
     transition: 2.5s;
   }
 }
