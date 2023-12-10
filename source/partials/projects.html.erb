@@ -1,59 +1,32 @@
 <div class="cards">
   <% data.projects.each_with_index do |project, index| %>
+    <%# create individual cards %>
     <%# set card alignment %>
-    <% if index % 2 == 0 %>
-      <div class="card card-left">
-        <%= image_tag project.image, alt: "project image" %>
-        <div>
-          <h2><%= project.name %></h2>
-          <h3><%= project.description %></h3>
-          <ul class="stats">
-            <li>
-              <var><%= project.developers %></var>
-              <label>Developers</label>
-            </li>
-            <li>
-              <var><%= project.days %></var>
-              <label>Days</label>
-            </li>
-            <li>
-              <var><%= project.cups %></var>
-              <label>Cups of Tea</label>
-            </li>
-          </ul>
-          <nav class="buttons">
-            <a href=<%= project.code_url %> class="primary button", target='_blank'>View Code</a>
-            <a href=<%= project.url %> class="button", target='_blank'>Visit Site</a>
-          </nav>
-        </div>
+    <div class="card <%= index % 2 == 1 ? 'card-right' : 'card-left' %>">
+      <%= image_tag project.image, alt: "project image" %>
+      <%# set text alignment %>
+      <div class=<%= index % 2 == 1 ? 'right-align' : '' %>>
+        <h2><%= project.name %></h2>
+        <h3><%= project.description %></h3>
+        <ul class="stats">
+          <li>
+            <var><%= project.developers %></var>
+            <label>Developers</label>
+          </li>
+          <li>
+            <var><%= project.days %></var>
+            <label>Days</label>
+          </li>
+          <li>
+            <var><%= project.cups %></var>
+            <label>Cups of Tea</label>
+          </li>
+        </ul>
+        <nav class="buttons">
+          <a href=<%= project.code_url %> class="primary button", target='_blank'>View Code</a>
+          <a href=<%= project.url %> class="button", target='_blank'>Visit Site</a>
+        </nav>
       </div>
-    <% else %>
-      <%# create cards %>
-      <div class="card card-right">
-        <%= image_tag project.image, alt: "project image" %>
-        <div class="right-align">
-          <h2><%= project.name %></h2>
-          <h3><%= project.description %></h3>
-          <ul class="stats">
-            <li>
-              <var><%= project.developers %></var>
-              <label>Developers</label>
-            </li>
-            <li>
-              <var><%= project.days %></var>
-              <label>Days</label>
-            </li>
-            <li>
-              <var><%= project.cups %></var>
-              <label>Cups of Tea</label>
-            </li>
-          </ul>
-          <nav class="buttons">
-            <a href=<%= project.code_url %> class="primary button", target='_blank'>View Code</a>
-            <a href=<%= project.url %> class="button", target='_blank'>Visit Site</a>
-          </nav>
-        </div>
-      </div>
-    <% end %>
+    </div>
   <% end %>
 </div>
