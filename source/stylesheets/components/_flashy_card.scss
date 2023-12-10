@@ -42,6 +42,11 @@ body {
 
 .card-right {
   flex-direction: row-reverse;
+  background-image: url("../../images/projects/lines-border-flipped.png");
+}
+
+.right-align {
+  text-align: right;
 }
 
 .card img {
