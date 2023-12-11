@@ -2,7 +2,7 @@
   <% data.projects.each_with_index do |project, index| %>
     <%# create individual cards %>
     <%# set card alignment %>
-    <div class="card <%= index % 2 == 1 ? 'card-right' : 'card-left' %>">
+    <div class="card <%= index % 2 == 1 ? 'card-right' : '' %>">
       <%= image_tag project.image, alt: "project image" %>
       <%# set text alignment %>
       <div class=<%= index % 2 == 1 ? 'right-align' : '' %>>
