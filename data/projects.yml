@@ -7,7 +7,7 @@
   days: 10
   developers: 4
   cups: 57
-  tech: Ruby | Ruby on Rails | HTML | CSS | JavaScript | Fabric JS
+  tech: Ruby on Rails | HTML | CSS | JavaScript | Fabric JS
 
 - name: KnightTime
   description: A fun app that allows users to host
@@ -18,7 +18,7 @@
   days: 5
   developers: 4
   cups: 25
-  tech: Ruby | Ruby on Rails | HTML | CSS | JavaScript
+  tech: Ruby on Rails | HTML | CSS | JavaScript
 
 - name: Movie Watch List
   description: An app that lets the user create a list of movies
@@ -28,7 +28,7 @@
   days: 1
   developers: 1
   cups: 7
-  tech: Ruby | Ruby on Rails | HTML | CSS | JavaScript
+  tech: Ruby on Rails | HTML | CSS | JavaScript
 
 - name: Gif Searcher
   description: Look up all sorts of gifs and enjoy the display!
@@ -48,4 +48,4 @@
   days: TDB
   developers: 5
   cups: TBD
-  tech: Ruby | Ruby on Rails | HTML | CSS | JavaScript
+  tech: Ruby on Rails | HTML | CSS | JavaScript

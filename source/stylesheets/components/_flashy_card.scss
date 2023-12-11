@@ -50,7 +50,7 @@ body {
   margin-left: -60px;
   margin-right: 20px;
   object-fit: cover;
-  border-radius: inherit;
+  border-radius: 12px;
 }
 
 .card-right img {
@@ -67,6 +67,14 @@ body {
 
 .card h3 {
   font-size: 16px;
+  font-weight: 500;
+  opacity: 0.75;
+  margin: 0 0 20px;
+  color: #292929;
+}
+
+.card h5 {
+  font-size: 14px;
   font-weight: 500;
   opacity: 0.75;
   margin: 0 0 20px;

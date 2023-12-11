@@ -8,7 +8,7 @@
       <div class=<%= index % 2 == 1 ? 'right-align' : '' %>>
         <h2><%= project.name %></h2>
         <h3><%= project.description %></h3>
-        <p>Built with: <%= project.tech %></p>
+        <h5><em><%= project.tech %></em></h5>
         <ul class="stats">
           <li>
             <var><%= project.developers %></var>
