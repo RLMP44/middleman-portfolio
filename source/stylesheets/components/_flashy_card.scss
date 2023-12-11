@@ -107,15 +107,15 @@ body {
   text-align: center;
   &:hover {
     color: black;
-    box-shadow: inset black 1px 1px 10px,
-      inset black -1px -1px 10px,
-      inset black -1px 1px 10px,
-      inset black 1px -1px 10px,
-      1px 1px 10px black,
-      -1px -1px 10px black,
-      1px -1px 10px black,
-      1px -1px 10px black;
-    transition: 3s;
+    box-shadow: inset black 1px 1px 3px,
+      inset black -1px -1px 3px,
+      inset black -1px 1px 3px,
+      inset black 1px -1px 3px,
+      1px 1px 3px black,
+      -1px -1px 3px black,
+      1px -1px 3px black,
+      1px -1px 3px black;
+    transition: 2s;
   }
 }
 
@@ -124,11 +124,11 @@ body {
   color: #f9f9f9;
   border: 0;
   &:hover {
-    box-shadow: 1px 1px 10px black,
-      -1px -1px 10px black,
-      1px -1px 10px black,
-      1px -1px 10px black;
-    transition: 2.5s;
+    box-shadow: 1px 1px 4px black,
+      -1px -1px 4px black,
+      1px -1px 4px black,
+      1px -1px 4px black;
+    transition: 2s;
   }
 }
 
