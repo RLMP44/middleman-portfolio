@@ -107,14 +107,14 @@ body {
   text-align: center;
   &:hover {
     color: black;
-    box-shadow: inset black 1px 1px 3px,
-      inset black -1px -1px 3px,
-      inset black -1px 1px 3px,
-      inset black 1px -1px 3px,
-      1px 1px 3px black,
-      -1px -1px 3px black,
-      1px -1px 3px black,
-      1px -1px 3px black;
+    box-shadow: inset  rgba(0, 0, 0, 0.4) 1px 1px 3px,
+      inset  rgba(0, 0, 0, 0.4) -1px -1px 3px,
+      inset  rgba(0, 0, 0, 0.4) -1px 1px 3px,
+      inset  rgba(0, 0, 0, 0.4) 1px -1px 3px,
+      1px 1px 3px  rgba(0, 0, 0, 0.4),
+      -1px -1px 3px  rgba(0, 0, 0, 0.4),
+      1px -1px 3px  rgba(0, 0, 0, 0.4),
+      1px -1px 3px  rgba(0, 0, 0, 0.4);
     transition: 2s;
   }
 }
@@ -124,10 +124,10 @@ body {
   color: #f9f9f9;
   border: 0;
   &:hover {
-    box-shadow: 1px 1px 4px black,
-      -1px -1px 4px black,
-      1px -1px 4px black,
-      1px -1px 4px black;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4),
+      -1px -1px 4px  rgba(0, 0, 0, 0.4),
+      1px -1px 4px  rgba(0, 0, 0, 0.4),
+      1px -1px 4px  rgba(0, 0, 0, 0.4);
     transition: 2s;
   }
 }
