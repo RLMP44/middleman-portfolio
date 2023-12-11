@@ -8,6 +8,7 @@
       <div class=<%= index % 2 == 1 ? 'right-align' : '' %>>
         <h2><%= project.name %></h2>
         <h3><%= project.description %></h3>
+        <p>Built with: <%= project.tech %></p>
         <ul class="stats">
           <li>
             <var><%= project.developers %></var>
@@ -26,22 +27,6 @@
           <a href=<%= project.code_url %> class="primary button", target='_blank'>View Code</a>
           <a href=<%= project.url %> class="button", target='_blank'>Visit Site</a>
         </nav>
-      </div>
-      <div class="tech-stack">
-        <div class="d-flex justify-content-center flex-column">
-          <div class="button-social">
-            <i class="fa-brands fa-html5 fa-lg"></i>
-          </div>
-          <div class="button-social">
-            <i class="fa-brands fa-css3-alt fa-lg"></i>
-          </div>
-          <div class="button-social">
-            <i class="fa-brands fa-js fa-lg"></i>
-          </div>
-          <div class="button-social">
-            <i class="bi bi-filetype-rb fa-lg"></i>
-          </div>
-        </div>
       </div>
     </div>
   <% end %>

@@ -11,16 +11,47 @@
 @import "container";
 
 // Smallest device
-@media (min-width: 100px) and (max-width: 575px) {
-  .cards {
+@media (min-width: 100px) and (max-width: 767px) {
+  .card {
     grid-template-columns: 1fr;
+    margin: 20px 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    flex-direction: column;
+    background-size: contain;
+    background-image: url("../../images/projects/lines-border-vertical.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
   }
-}
 
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) {
-  .cards {
-    grid-template-columns: 1fr;
+  .card h2 {
+    font-size: 30px;
+  }
+
+  .card img {
+    margin: -100px 0 30px 0;
+    width: 100%;
+    max-width: 1000px;
+  }
+
+  .card .stats var {
+    min-width: 90px;
+  }
+
+  .card .stats {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    list-style: none;
+    margin: 0 0 24px;
+    padding: 0;
+  }
+
+  .card button {
+    min-width: 160px;
   }
 }
 
