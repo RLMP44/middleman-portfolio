@@ -10,7 +10,7 @@ body {
   background-repeat: no-repeat;
   // background-image: linear-gradient(-140deg, #323232, #0D7377, #14FFEC);
   background-image: url("../../images/projects/paper-background.jpg");
-  color: #575556;
+  color: #292929;
   font-family: "Euclid Circular A", "Poppins";
   background-position: center;
   background-size: cover;
@@ -61,22 +61,25 @@ body {
 
 .card h2 {
   font-size: 28px;
-  font-weight: 400;
+  font-weight: 500;
   margin: 0;
+  color: #292929;
 }
 
 .card h3 {
   font-size: 16px;
-  font-weight: 400;
-  opacity: 0.5;
+  font-weight: 500;
+  opacity: 0.75;
   margin: 0 0 20px;
+  color: #292929;
 }
 
 .card p {
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 500;
   color: black;
   margin-bottom: 24px;
+  color: #292929;
 }
 
 .card .buttons {
@@ -137,5 +140,5 @@ body {
 }
 
 .card .stats label {
-  opacity: 0.5;
+  opacity: 0.6;
 }

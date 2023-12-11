@@ -1,7 +1,11 @@
 .avatar {
   width: 200px;
   border-radius: 50%;
-  border-image-outset: url("../../images/coffee-ring.webp");
+  border-image-source: url(../../images/coffee-ring.webp);
+  border-image-outset: 55px;
+  border-image-width: 133px;
+  border-image-slice: 45%;
+  margin-bottom: 20px;
 }
 .avatar-large {
   width: 56px;
