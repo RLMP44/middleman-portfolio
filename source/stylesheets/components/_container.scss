@@ -1,5 +1,9 @@
 .about-me {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   color: white;
+}
+
+.pic {
+  text-align: right;
 }
