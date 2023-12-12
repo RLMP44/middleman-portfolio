@@ -7,6 +7,7 @@
       <%# set text alignment %>
       <div class=<%= index % 2 == 1 ? 'right-align' : '' %>>
         <h2><%= project.name %></h2>
+        <p>Role: <strong><%= project.role %></strong></p>
         <h3><%= project.description %></h3>
         <h5><em><%= project.tech %></em></h5>
         <ul class="stats">
