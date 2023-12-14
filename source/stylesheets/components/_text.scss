@@ -3,7 +3,8 @@
   text-align: start;
   color: black;
   align-items: center;
-}
+  margin-top: 30px;
+  }
 
 .title {
   margin-top: -40px;
@@ -22,4 +23,13 @@
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+
+.projects-description {
+  border-image-source: url("../../images/single-line.png");
+  border-image-outset: 23px;
+  border-image-width: 19px;
+  border-image-slice: 27% 0% 29% 45%;
 }
