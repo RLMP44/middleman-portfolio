@@ -11,3 +11,15 @@
   font-weight: 300;
   font-size: xxx-large;
 }
+
+.projects-title {
+  font-weight: 300;
+  font-size: xxx-large;
+}
+
+.projects-intro {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
