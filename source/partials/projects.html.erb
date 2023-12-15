@@ -3,7 +3,7 @@
     Projects
   </div>
   <div class="description">
-    <p style="text-align: center">Below are some of my most recent projects. Feel free to poke about and don't be afraid to reach out!</p>
+    <p style="text-align: center">Below are some of my most recent projects. Feel free to look around and don't be afraid to reach out!</p>
   </div>
 </div>
 <div class="cards">
@@ -17,7 +17,7 @@
         <h2><%= project.name %></h2>
         <p>Role: <strong><%= project.role %></strong></p>
         <h3><%= project.description %></h3>
-        <h5><em><%= project.tech %></em></h5>
+        <h2><%= project.tech.html_safe %></h2>
         <ul class="stats">
           <li>
             <var><%= project.developers %></var>

@@ -7,7 +7,7 @@
   days: 10
   developers: 4
   cups: 57
-  tech: Ruby on Rails | HTML | CSS | JavaScript | Fabric JS
+  tech: <i class="devicon-rails-plain"></i> <i class="devicon-html5-plain-wordmark"> </i><i class="devicon-css3-plain-wordmark"></i> <i class="devicon-javascript-plain"></i> <i class="devicon-figma-plain"></i> <i class="devicon-heroku-original-wordmark"></i>
   role: Lead developer
 
 - name: KnightTime
@@ -19,7 +19,7 @@
   days: 5
   developers: 4
   cups: 25
-  tech: Ruby on Rails | HTML | CSS | JavaScript
+  tech: <i class="devicon-rails-plain"></i> <i class="devicon-html5-plain-wordmark"></i> <i class="devicon-css3-plain-wordmark"></i> <i class="devicon-javascript-plain"></i> <i class="devicon-figma-plain"></i> <i class="devicon-heroku-original-wordmark"></i>
   role: Lead developer
 
 - name: Movie Watch List
@@ -30,18 +30,18 @@
   days: 1
   developers: 1
   cups: 7
-  tech: Ruby on Rails | HTML | CSS | JavaScript
+  tech: <i class="devicon-rails-plain"></i> <i class="devicon-html5-plain-wordmark"></i> <i class="devicon-css3-plain-wordmark"></i> <i class="devicon-javascript-plain"></i> <i class="devicon-heroku-original-wordmark"></i>
   role: Full-stack developer
 
 - name: Gif Searcher
   description: Look up all sorts of gifs and enjoy the display!
-  image: projects/placeholder.png
+  image: projects/gif-searcher-sm.png
   url: https://rlmp44.github.io/workshop/
   code_url: https://github.com/RLMP44/workshop
   days: 1
   developers: 1
   cups: 1
-  tech: Ruby | React | HTML | CSS
+  tech: <i class="devicon-ruby-plain-wordmark"></i> <i class="devicon-react-original-wordmark"></i> <i class="devicon-html5-plain-wordmark"></i> <i class="devicon-css3-plain-wordmark"></i> <i class="devicon-javascript-plain"></i>
   role: Front-end developer
 
 - name: Secret Project
@@ -52,5 +52,5 @@
   days: TDB
   developers: 4
   cups: 1
-  tech: Ruby on Rails | HTML | CSS | JavaScript
+  tech: <i class="devicon-rails-plain"></i> <i class="devicon-html5-plain-wordmark"></i> <i class="devicon-css3-plain-wordmark"></i> <i class="devicon-javascript-plain"></i> <i class="devicon-figma-plain"></i>
   role: Lead developer
