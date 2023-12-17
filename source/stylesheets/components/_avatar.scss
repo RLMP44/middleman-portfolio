@@ -2,12 +2,11 @@
   width: 200px;
   position: relative;
   border-radius: 50%;
-  // border-image-source: url(../../images/leaf-border.png);
-  // border-image-outset: 35px;
-  // border-image-width: 133px;
-  // border-image-slice: 45%;
+  border-image-source: url(../../images/brown-leaf-border.png);
+  border-image-outset: 56px 80px 56px 50px;
+  border-image-width: auto;
+  border-image-slice: 50%;
   margin-bottom: 20px;
-  // box-shadow: 2px 2px 100px 5px #fffdfe;
 }
 
 .leaf-border {
