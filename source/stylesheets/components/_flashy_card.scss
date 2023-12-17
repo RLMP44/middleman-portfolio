@@ -96,9 +96,9 @@ body {
 }
 
 .button {
-  border: 1px solid black;
+  border: 2px solid #c89426;
   background: transparent;
-  color: black;
+  color: #c89426;
   font-family: inherit;
   padding: 16px 20px;
   font-size: 18px;
@@ -107,28 +107,22 @@ body {
   text-decoration: none;
   text-align: center;
   &:hover {
-    color: black;
-    box-shadow: inset  rgba(0, 0, 0, 0.4) 1px 1px 3px,
-      inset  rgba(0, 0, 0, 0.4) -1px -1px 3px,
-      inset  rgba(0, 0, 0, 0.4) -1px 1px 3px,
-      inset  rgba(0, 0, 0, 0.4) 1px -1px 3px,
-      1px 1px 3px  rgba(0, 0, 0, 0.4),
-      -1px -1px 3px  rgba(0, 0, 0, 0.4),
-      1px -1px 3px  rgba(0, 0, 0, 0.4),
-      1px -1px 3px  rgba(0, 0, 0, 0.4);
+    color: #f9f9f9;
+    border-color: #f9f9f9;
+    backdrop-filter: blur(8px);
     transition: 2s;
   }
 }
 
 .button.primary {
-  background: black;
+  background: #c89426;
   color: #f9f9f9;
-  border: 0;
+  border: 2px solid #f9f9f9;
   &:hover {
-    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4),
-      -1px -1px 4px  rgba(0, 0, 0, 0.4),
-      1px -1px 4px  rgba(0, 0, 0, 0.4),
-      1px -1px 4px  rgba(0, 0, 0, 0.4);
+    color: #c89426;
+    border-color: #c89426;
+    background: transparent;
+    backdrop-filter: blur(8px);
     transition: 2s;
   }
 }
