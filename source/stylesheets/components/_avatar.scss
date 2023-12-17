@@ -1,5 +1,6 @@
 .avatar {
   width: 200px;
+  position: relative;
   border-radius: 50%;
   // border-image-source: url(../../images/leaf-border.png);
   // border-image-outset: 35px;
@@ -13,7 +14,7 @@
   width: 319px;
   height: 350px;
   position: absolute;
-  top: 18%;
+  top: 17%;
   right: 38.5%;
   // z-index: -1;
 }
