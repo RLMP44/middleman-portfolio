@@ -107,23 +107,21 @@ body {
   text-decoration: none;
   text-align: center;
   &:hover {
-    color: #f9f9f9;
-    border-color: #f9f9f9;
+    color: #c89426;
     backdrop-filter: blur(8px);
     transition: 2s;
   }
 }
 
 .button.primary {
-  background: #c89426;
+  background: transparent;
+  backdrop-filter: blur(8px);
   color: #f9f9f9;
   border: 2px solid #f9f9f9;
   &:hover {
-    color: #c89426;
-    border-color: #c89426;
     background: transparent;
-    backdrop-filter: blur(8px);
-    transition: 2s;
+    backdrop-filter: none;
+    transition: 1s;
   }
 }
 
