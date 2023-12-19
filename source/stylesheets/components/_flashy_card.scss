@@ -8,7 +8,6 @@ body {
   justify-content: center;
   margin: 0;
   background-repeat: no-repeat;
-  // background-image: linear-gradient(-140deg, #323232, #0D7377, #14FFEC);
   background-image: url("../../images/projects/Gold-Watercolour-Background.jpg");
   color: #292929;
   font-family: "Euclid Circular A", "Poppins";
@@ -35,15 +34,6 @@ body {
   border: 0;
 }
 
-.card-right {
-  flex-direction: row-reverse;
-  background-image: url("../../images/projects/lines-border-flipped.png");
-}
-
-.right-align {
-  text-align: right;
-}
-
 .card img {
   max-width: 200px;
   width: 32vw;
@@ -53,11 +43,6 @@ body {
   object-fit: cover;
   border-radius: 12px;
   filter: saturate(60%);
-}
-
-.card-right img {
-  margin-left: 20px;
-  margin-right: -60px;
 }
 
 .card h2 {
@@ -100,10 +85,11 @@ body {
   background: transparent;
   color: #c89426;
   font-family: inherit;
-  padding: 16px 20px;
-  font-size: 18px;
+  padding: 12px 19px;
+  margin: 0px 9px;
+  font-size: 16px;
   border-radius: 6px;
-  min-width: 160px;
+  min-width: 140px;
   text-decoration: none;
   text-align: center;
   &:hover {
