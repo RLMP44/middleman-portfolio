@@ -8,12 +8,34 @@
     </div>
     <h1 class="title-main">Rachael Momber</h1>
     <h4 style="text-align: center">Building web apps one cup of tea at a time</h4>
+    <%# social links start %>
+    <div class="row my-3">
+      <div class="col-12">
+        <div id="contact">
+          <div class="d-flex justify-content-center flex-wrap">
+            <div class="button-social d-flex flex-column justify-content-center align-items-center">
+              <i class="fa-solid fa-envelope"></i>
+              <%= mail_to "rlmomber@gmail.com", "", class: 'button-social-link' %>
+            </div>
+            <div class="button-social d-flex flex-column justify-content-center align-items-center">
+              <i class="fa-brands fa-github"></i>
+              <%= link_to "", "https://github.com/RLMP44", target: '_blank', class: 'button-social-link' %>
+            </div>
+            <div class="button-social d-flex flex-column justify-content-center align-items-center">
+              <i class="fa-brands fa-linkedin"></i>
+              <%= link_to "", "https://www.linkedin.com/in/rachael-momber/", target: '_blank', class: 'button-social-link' %>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <%# social links end %>
   </div>
   <div class="arrow">
     <i class="fa-solid fa-angles-down fa-bounce fa-2xl"
       style="margin-top: -20px;
       display: flex;
       justify-content: center;"
-    ></i></i>
-</div>
+    ></i>
+  </div>
 </div>
