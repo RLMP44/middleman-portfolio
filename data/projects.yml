@@ -49,8 +49,19 @@
   image: projects/top-secret.png
   url: https://www.google.com
   code_url: https://github.com/RLMP44
-  days: TDB
+  days: 1
   developers: 4
-  cups: 1
+  cups: 5
   tech: <i class="devicon-rails-plain"></i> <i class="devicon-html5-plain-wordmark"></i> <i class="devicon-css3-plain-wordmark"></i> <i class="devicon-javascript-plain"></i> <i class="devicon-figma-plain"></i>
   role: Lead developer
+
+- name: Virtual World
+  description: Currently working on making a virtual world with self-driving cars. Come check back for updates!
+  image: projects/VirtualWorld.png
+  url: https://github.com/RLMP44
+  code_url: https://github.com/RLMP44
+  days: 1
+  developers: 1
+  cups: 3
+  tech: <i class="devicon-html5-plain-wordmark"></i><i class="devicon-css3-plain-wordmark"></i><i class="devicon-javascript-plain"></i>
+  role: Sole developer
