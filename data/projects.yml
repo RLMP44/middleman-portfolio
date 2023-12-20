@@ -49,9 +49,9 @@
   image: projects/top-secret.png
   url: https://www.google.com
   code_url: https://github.com/RLMP44
-  days: 1
+  days: 2
   developers: 4
-  cups: 5
+  cups: 7
   tech: <i class="devicon-rails-plain"></i> <i class="devicon-html5-plain-wordmark"></i> <i class="devicon-css3-plain-wordmark"></i> <i class="devicon-javascript-plain"></i> <i class="devicon-figma-plain"></i>
   role: Lead developer
 
