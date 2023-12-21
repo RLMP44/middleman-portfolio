@@ -49,9 +49,9 @@
   image: projects/top-secret.png
   url: https://www.google.com
   code_url: https://github.com/RLMP44
-  days: 2
+  days: 2.5
   developers: 4
-  cups: 7
+  cups: 9
   tech: <i class="devicon-rails-plain"></i> <i class="devicon-html5-plain-wordmark"></i> <i class="devicon-css3-plain-wordmark"></i> <i class="devicon-javascript-plain"></i> <i class="devicon-figma-plain"></i>
   role: Lead developer
 
@@ -60,8 +60,8 @@
   image: projects/VirtualWorld.png
   url: https://github.com/RLMP44
   code_url: https://github.com/RLMP44
-  days: 1
+  days: 1.5
   developers: 1
-  cups: 3
+  cups: 5
   tech: <i class="devicon-html5-plain-wordmark"></i><i class="devicon-css3-plain-wordmark"></i><i class="devicon-javascript-plain"></i>
   role: Sole developer
