@@ -34,7 +34,11 @@
         </ul>
         <nav class="buttons">
           <a href=<%= project.code_url %> class="primary button", target='_blank'>View Code</a>
-          <a href=<%= project.url %> class="button", target='_blank'>Visit Site</a>
+          <% if project.url.present? %>
+            <a href=<%= project.url %> class="button", target='_blank'>Visit Site</a>
+          <% else %>
+            <a href="https://github.com/RLMP44/" class="button", target='_blank'>Visit GitHub</a>
+          <% end %>
         </nav>
       </div>
     </div>

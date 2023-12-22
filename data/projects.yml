@@ -44,6 +44,50 @@
   tech: <i class="devicon-ruby-plain-wordmark"></i> <i class="devicon-react-original-wordmark"></i> <i class="devicon-html5-plain-wordmark"></i> <i class="devicon-css3-plain-wordmark"></i> <i class="devicon-javascript-plain"></i>
   role: Front-end developer
 
+- name: Virtual World
+  description: Currently working on making a virtual world with self-driving cars. Come check back for updates!
+  image: projects/VirtualWorld.png
+  url: https://github.com/RLMP44
+  code_url: https://github.com/RLMP44/VirtualWorld
+  days: 1.5
+  developers: 1
+  cups: 5
+  tech: <i class="devicon-html5-plain-wordmark"></i><i class="devicon-css3-plain-wordmark"></i><i class="devicon-javascript-plain"></i>
+  role: Sole developer
+
+- name: Kanye Quotes
+  description: A collection of Kanye West's "best" quotes. Click his face for a dope quote!
+  image: projects/KanyeQuotes.png
+  url:
+  code_url: https://github.com/RLMP44/kanye-quotes/tree/master
+  days: 1
+  developers: 1
+  cups: 3
+  tech: <i class="devicon-python-plain"></i><i class="devicon-pycharm-plain"></i>
+  role: Sole developer
+
+- name: Flashly
+  description: A simple flashcard app to test your knowledge of the French language!
+  image: projects/Flashly-back.png
+  url:
+  code_url: https://github.com/RLMP44/Flashly
+  days: 1
+  developers: 1
+  cups: 6
+  tech: <i class="devicon-python-plain"></i><i class="devicon-pycharm-plain"></i><i class="devicon-pandas-original"></i>
+  role: Sole developer
+
+- name: USA States Quiz
+  description: Can you name all of the states of the USA? Come find out!
+  image: projects/StatesQuiz.png
+  url:
+  code_url: https://github.com/RLMP44/us-states-quiz
+  days: 1
+  developers: 1
+  cups: 5
+  tech: <i class="devicon-python-plain"></i><i class="devicon-pycharm-plain"></i><i class="devicon-pandas-original"></i>
+  role: Sole developer
+
 - name: Secret Project
   description: Currently working on a new project. Stay tuned!
   image: projects/top-secret.png
@@ -54,14 +98,3 @@
   cups: 12
   tech: <i class="devicon-rails-plain"></i> <i class="devicon-html5-plain-wordmark"></i> <i class="devicon-css3-plain-wordmark"></i> <i class="devicon-javascript-plain"></i> <i class="devicon-figma-plain"></i>
   role: Lead developer
-
-- name: Virtual World
-  description: Currently working on making a virtual world with self-driving cars. Come check back for updates!
-  image: projects/VirtualWorld.png
-  url: https://github.com/RLMP44
-  code_url: https://github.com/RLMP44
-  days: 1.5
-  developers: 1
-  cups: 5
-  tech: <i class="devicon-html5-plain-wordmark"></i><i class="devicon-css3-plain-wordmark"></i><i class="devicon-javascript-plain"></i>
-  role: Sole developer
