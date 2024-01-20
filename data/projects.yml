@@ -74,7 +74,7 @@
   days: 1
   developers: 1
   cups: 1
-  tech: <i class="devicon-python-plain"></i><i class="devicon-pycharm-plain"></i>
+  tech: <i class="devicon-python-plain"></i><i class="devicon-pycharm-plain"> / </i><i class="devicon-html5-plain-wordmark"></i><i class="devicon-css3-plain-wordmark"></i><i class="devicon-javascript-plain"></i>
   role: Sole developer
 
 - name: Flashly
