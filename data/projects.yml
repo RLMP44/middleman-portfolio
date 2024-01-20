@@ -68,12 +68,12 @@
 
 - name: Kanye Quotes
   description: A collection of Kanye West's "best" quotes. Click his face for a dope quote!
-  image: projects/KanyeQuotes.png
-  url:
-  code_url: https://github.com/RLMP44/kanye-quotes
+  image: projects/kanye-west-quotes-remade.png
+  url: https://rlmp44.github.io/kanye-west-quotes/
+  code_url: https://github.com/RLMP44/kanye-west-quotes
   days: 1
   developers: 1
-  cups: 3
+  cups: 1
   tech: <i class="devicon-python-plain"></i><i class="devicon-pycharm-plain"></i>
   role: Sole developer
 
