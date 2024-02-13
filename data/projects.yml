@@ -33,6 +33,17 @@
   tech: <i class="devicon-react-original-wordmark"></i> <i class="devicon-html5-plain-wordmark"></i> <i class="devicon-css3-plain-wordmark"></i> <i class="devicon-javascript-plain"></i>
   role: Sole developer
 
+- name: Kanye Quotes
+  description: A collection of Kanye West's "best" quotes. Click his face for a dope quote!
+  image: projects/kanye-west-quotes-remade.png
+  url: https://rlmp44.github.io/kanye-west-quotes/
+  code_url: https://github.com/RLMP44/kanye-west-quotes
+  days: 1
+  developers: 1
+  cups: 1
+  tech: <i class="devicon-python-plain"></i><i class="devicon-pycharm-plain"> / </i><i class="devicon-html5-plain-wordmark"></i><i class="devicon-css3-plain-wordmark"></i><i class="devicon-javascript-plain"></i>
+  role: Sole developer
+
 - name: Movie Watch List
   description: An app that lets the user create a list of movies
   image: projects/watchlist.png
@@ -55,17 +66,6 @@
   tech: <i class="devicon-ruby-plain-wordmark"></i> <i class="devicon-react-original-wordmark"></i> <i class="devicon-html5-plain-wordmark"></i> <i class="devicon-css3-plain-wordmark"></i> <i class="devicon-javascript-plain"></i>
   role: Front-end developer
 
-- name: Virtual World
-  description: Currently working on making a virtual world with self-driving cars. Come check back for updates!
-  image: projects/VirtualWorld.png
-  url: https://rlmp44.github.io/VirtualWorld/
-  code_url: https://github.com/RLMP44/VirtualWorld
-  days: 3
-  developers: 1
-  cups: 11
-  tech: <i class="devicon-html5-plain-wordmark"></i><i class="devicon-css3-plain-wordmark"></i><i class="devicon-javascript-plain"></i>
-  role: Sole developer
-
 - name: Screensaver
   description: A simple screensaver side project made while learning about HTML5 Canvas. Watch 100 circles bounce across your screen!
   image: projects/screensaver.png
@@ -75,17 +75,6 @@
   developers: 1
   cups: 6
   tech: <i class="devicon-html5-plain-wordmark"></i><i class="devicon-javascript-plain"></i>
-  role: Sole developer
-
-- name: Kanye Quotes
-  description: A collection of Kanye West's "best" quotes. Click his face for a dope quote!
-  image: projects/kanye-west-quotes-remade.png
-  url: https://rlmp44.github.io/kanye-west-quotes/
-  code_url: https://github.com/RLMP44/kanye-west-quotes
-  days: 1
-  developers: 1
-  cups: 1
-  tech: <i class="devicon-python-plain"></i><i class="devicon-pycharm-plain"> / </i><i class="devicon-html5-plain-wordmark"></i><i class="devicon-css3-plain-wordmark"></i><i class="devicon-javascript-plain"></i>
   role: Sole developer
 
 - name: Flashly
@@ -110,13 +99,24 @@
   tech: <i class="devicon-python-plain"></i><i class="devicon-pycharm-plain"></i><i class="devicon-pandas-original"></i>
   role: Sole developer
 
+- name: Virtual World
+  description: Currently working on making a virtual world with self-driving cars. Come check back for updates!
+  image: projects/VirtualWorld.png
+  url: https://rlmp44.github.io/VirtualWorld/
+  code_url: https://github.com/RLMP44/VirtualWorld
+  days: 3
+  developers: 1
+  cups: 11
+  tech: <i class="devicon-html5-plain-wordmark"></i><i class="devicon-css3-plain-wordmark"></i><i class="devicon-javascript-plain"></i>
+  role: Sole developer
+
 - name: Secret Project
   description: Currently working on a new project. Stay tuned!
   image: projects/top-secret.png
   url: https://www.google.com
   code_url: https://github.com/RLMP44
-  days: 6.5
+  days: 7
   developers: 4
-  cups: 30
+  cups: 32
   tech: <i class="devicon-rails-plain"></i> <i class="devicon-html5-plain-wordmark"></i> <i class="devicon-css3-plain-wordmark"></i> <i class="devicon-javascript-plain"></i> <i class="devicon-figma-plain"></i>
   role: Lead developer
