@@ -22,6 +22,17 @@
   tech: <i class="devicon-rails-plain"></i> <i class="devicon-html5-plain-wordmark"></i> <i class="devicon-css3-plain-wordmark"></i> <i class="devicon-javascript-plain"></i> <i class="devicon-figma-plain"></i> <i class="devicon-heroku-original-wordmark"></i>
   role: Lead developer
 
+- name: To-do List
+  description: A simple app to track your daily and monthly to-dos
+  image: projects/react-todo1.png
+  url: https://rlmp44.github.io/react-todo/
+  code_url: https://github.com/RLMP44/react-todo/tree/master
+  days: 2
+  developers: 1
+  cups: 6
+  tech: <i class="devicon-react-original-wordmark"></i> <i class="devicon-html5-plain-wordmark"></i> <i class="devicon-css3-plain-wordmark"></i> <i class="devicon-javascript-plain"></i>
+  role: Sole developer
+
 - name: Movie Watch List
   description: An app that lets the user create a list of movies
   image: projects/watchlist.png
