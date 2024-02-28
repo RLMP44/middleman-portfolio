@@ -99,6 +99,17 @@
   tech: <i class="devicon-python-plain"></i><i class="devicon-pycharm-plain"></i><i class="devicon-pandas-original"></i>
   role: Sole developer
 
+- name: Pomodoro App
+  description: A simple timer to increase your productivity.
+  image: projects/pomodoro.png
+  url:
+  code_url: https://github.com/RLMP44/pomodoro
+  days: 1
+  developers: 1
+  cups: 4
+  tech: <i class="devicon-python-plain"></i><i class="devicon-pycharm-plain"></i>
+  role: Sole developer
+
 - name: Virtual World
   description: Currently working on making a virtual world with self-driving cars. Come check back for updates!
   image: projects/VirtualWorld.png
@@ -115,8 +126,8 @@
   image: projects/top-secret.png
   url: https://www.google.com
   code_url: https://github.com/RLMP44
-  days: 7
+  days: 7.5
   developers: 4
-  cups: 32
+  cups: 36
   tech: <i class="devicon-rails-plain"></i> <i class="devicon-html5-plain-wordmark"></i> <i class="devicon-css3-plain-wordmark"></i> <i class="devicon-javascript-plain"></i> <i class="devicon-figma-plain"></i>
   role: Lead developer
