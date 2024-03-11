@@ -23,7 +23,7 @@
   role: Lead developer
 
 - name: To-do List
-  description: A simple app to track your daily and monthly to-dos
+  description: An app to track both your daily and monthly to-dos
   image: projects/react-todo1.png
   url: https://rlmp44.github.io/react-todo/
   code_url: https://github.com/RLMP44/react-todo/tree/master
@@ -78,7 +78,7 @@
   role: Sole developer
 
 - name: Flashly
-  description: A simple flashcard app to test your knowledge of the French language!
+  description: A flashcard app to test your knowledge of the French language! Download to test yourself!
   image: projects/Flashly-back.png
   url:
   code_url: https://github.com/RLMP44/Flashly
@@ -89,7 +89,7 @@
   role: Sole developer
 
 - name: USA States Quiz
-  description: Can you name all of the states of the USA? Come find out!
+  description: Can you name all of the states of the USA? Come find out! Download the code to try!
   image: projects/StatesQuiz.png
   url:
   code_url: https://github.com/RLMP44/us-states-quiz
@@ -100,13 +100,24 @@
   role: Sole developer
 
 - name: Pomodoro App
-  description: A simple timer to increase your productivity.
+  description: A simple timer to increase your productivity. Download to use.
   image: projects/pomodoro.png
   url:
   code_url: https://github.com/RLMP44/pomodoro
   days: 1
   developers: 1
   cups: 4
+  tech: <i class="devicon-python-plain"></i><i class="devicon-pycharm-plain"></i>
+  role: Sole developer
+
+- name: Pong
+  description: A basic recreation of the classic Pong game made with Python and Turtle Graphics. Download the code to play!
+  image: projects/pong.png
+  url:
+  code_url: rlmp44.github.io/pongGame/
+  days: 1
+  developers: 1
+  cups: 6
   tech: <i class="devicon-python-plain"></i><i class="devicon-pycharm-plain"></i>
   role: Sole developer
 
