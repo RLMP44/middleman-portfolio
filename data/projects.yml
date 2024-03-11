@@ -114,7 +114,7 @@
   description: A basic recreation of the classic Pong game made with Python and Turtle Graphics. Download the code to play!
   image: projects/pong.png
   url:
-  code_url: rlmp44.github.io/pongGame/
+  code_url: https://github.com/RLMP44/pongGame
   days: 1
   developers: 1
   cups: 6
