@@ -23,13 +23,13 @@
   role: Lead developer
 
 - name: To-do List
-  description: An app to track both your daily and monthly to-dos
-  image: projects/react-todo1.png
+  description: A React app to track your daily, weekly, and monthly to-dos
+  image: projects/react-todo2.png
   url: https://rlmp44.github.io/react-todo/
   code_url: https://github.com/RLMP44/react-todo/tree/master
   days: 2
   developers: 1
-  cups: 6
+  cups: 7
   tech: <i class="devicon-react-original-wordmark"></i> <i class="devicon-html5-plain-wordmark"></i> <i class="devicon-css3-plain-wordmark"></i> <i class="devicon-javascript-plain"></i>
   role: Sole developer
 
@@ -135,7 +135,7 @@
 - name: Secret Project
   description: Currently working on a new project. Stay tuned!
   image: projects/top-secret.png
-  url: https://www.google.com
+  url: https://github.com/RLMP44/SeatSensei
   code_url: https://github.com/RLMP44
   days: 7.5
   developers: 4
