@@ -126,9 +126,9 @@
   image: projects/VirtualWorld.png
   url: https://rlmp44.github.io/VirtualWorld/
   code_url: https://github.com/RLMP44/VirtualWorld
-  days: 3
+  days: 5
   developers: 1
-  cups: 11
+  cups: 16
   tech: <i class="devicon-html5-plain-wordmark"></i><i class="devicon-css3-plain-wordmark"></i><i class="devicon-javascript-plain"></i>
   role: Sole developer
 
@@ -137,8 +137,8 @@
   image: projects/top-secret.png
   url: https://github.com/RLMP44/SeatSensei
   code_url: https://github.com/RLMP44
-  days: 7.5
+  days: 9
   developers: 4
-  cups: 36
+  cups: 46
   tech: <i class="devicon-rails-plain"></i> <i class="devicon-html5-plain-wordmark"></i> <i class="devicon-css3-plain-wordmark"></i> <i class="devicon-javascript-plain"></i> <i class="devicon-figma-plain"></i>
   role: Lead developer
