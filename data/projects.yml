@@ -44,6 +44,28 @@
   tech: <i class="devicon-python-plain"></i><i class="devicon-pycharm-plain"> / </i><i class="devicon-html5-plain-wordmark"></i><i class="devicon-css3-plain-wordmark"></i><i class="devicon-javascript-plain"></i>
   role: Sole developer
 
+- name: Spill the Beans
+  description: A recipe app for the family, minus all the extra jargon. Currently a work-in-progress as a personal weekend project.
+  image: projects/spillthebeans.png
+  url:
+  code_url: https://github.com/RLMP44/SpillTheBeans
+  days: 5
+  developers: 1
+  cups: 15
+  tech: <i class="devicon-rails-plain"></i> <i class="devicon-html5-plain-wordmark"></i> <i class="devicon-css3-plain-wordmark"></i>
+  role: Full-stack developer
+
+- name: Workout Tracking
+  description: Automatically track your workouts in Google Sheets using the Nutritionix API and the Sheety API. Currently adding more features!
+  image: projects/sheety.png
+  url:
+  code_url: https://github.com/RLMP44/Workout_Tracking
+  days: 2
+  developers: 1
+  cups: 8
+  tech: <i class="devicon-python-plain"></i><i class="devicon-pycharm-plain"></i>
+  role: Sole developer
+
 - name: Movie Watch List
   description: An app that lets the user create a list of movies
   image: projects/watchlist.png
@@ -121,6 +143,17 @@
   tech: <i class="devicon-python-plain"></i><i class="devicon-pycharm-plain"></i>
   role: Sole developer
 
+- name: Quizzler
+  description: Quiz yourself on incredibly random facts!
+  image: projects/quizzler.png
+  url:
+  code_url: https://github.com/RLMP44/QuizProject
+  days: 1
+  developers: 1
+  cups: 3
+  tech: <i class="devicon-python-plain"></i><i class="devicon-pycharm-plain"></i>
+  role: Sole developer
+
 - name: Virtual World
   description: Currently working on making a virtual world with self-driving cars. Come check back for updates!
   image: projects/VirtualWorld.png
@@ -133,7 +166,7 @@
   role: Sole developer
 
 - name: Secret Project
-  description: Currently working on a new project. Stay tuned!
+  description: Currently working on a new team project. Stay tuned!
   image: projects/top-secret.png
   url: https://github.com/RLMP44/SeatSensei
   code_url: https://github.com/RLMP44
