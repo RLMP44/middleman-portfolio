@@ -7,7 +7,7 @@
   days: 10
   developers: 4
   cups: 57
-  tech: <i class="devicon-rails-plain"></i> <i class="devicon-html5-plain-wordmark"> </i><i class="devicon-css3-plain-wordmark"></i> <i class="devicon-javascript-plain"></i> <i class="devicon-figma-plain"></i> <i class="devicon-heroku-original-wordmark"></i>
+  tech: <i class="devicon-ruby-plain-wordmark"></i> <i class="devicon-rails-plain"></i> <i class="devicon-html5-plain-wordmark"> </i><i class="devicon-css3-plain-wordmark"></i> <i class="devicon-javascript-plain"></i> <i class="devicon-figma-plain"></i> <i class="devicon-heroku-original-wordmark"></i>
   role: Lead developer
 
 - name: KnightTime
@@ -19,7 +19,7 @@
   days: 5
   developers: 4
   cups: 25
-  tech: <i class="devicon-rails-plain"></i> <i class="devicon-html5-plain-wordmark"></i> <i class="devicon-css3-plain-wordmark"></i> <i class="devicon-javascript-plain"></i> <i class="devicon-figma-plain"></i> <i class="devicon-heroku-original-wordmark"></i>
+  tech: <i class="devicon-ruby-plain-wordmark"></i> <i class="devicon-rails-plain"></i> <i class="devicon-html5-plain-wordmark"></i> <i class="devicon-css3-plain-wordmark"></i> <i class="devicon-javascript-plain"></i> <i class="devicon-figma-plain"></i> <i class="devicon-heroku-original-wordmark"></i>
   role: Lead developer
 
 - name: To-do List
@@ -33,6 +33,39 @@
   tech: <i class="devicon-react-original-wordmark"></i> <i class="devicon-html5-plain-wordmark"></i> <i class="devicon-css3-plain-wordmark"></i> <i class="devicon-javascript-plain"></i>
   role: Sole developer
 
+- name: ISS Tracker
+  description: A Node app featuring websockets and scheduled jobs that make multiple API calls to render a live tracker of the International Space Station, with info on the incredible people aboard her.
+  image: projects/isstracker.jpg
+  url: iss-tracker-p8m0.onrender.com
+  code_url: https://github.com/RLMP44/express-iss
+  days: 10
+  developers: 1
+  cups: 14
+  tech: <i class="devicon-nodejs-plain"></i> <i class="devicon-express-original"></i> <i class="devicon-html5-plain-wordmark"></i> <i class="devicon-css3-plain-wordmark"></i> <i class="devicon-javascript-plain"></i>
+  role: Sole developer
+
+- name: Spill the Beans
+  description: A recipe app for the family, minus all the extra jargon. Currently a work-in-progress as a personal weekend project.
+  image: projects/spillthebeans.png
+  url:
+  code_url: https://github.com/RLMP44/SpillTheBeans
+  days: 15
+  developers: 1
+  cups: 25
+  tech: <i class="devicon-ruby-plain-wordmark"></i> <i class="devicon-rails-plain"></i> <i class="devicon-html5-plain-wordmark"></i> <i class="devicon-css3-plain-wordmark"></i>
+  role: Full-stack developer
+
+- name: Author Blog
+  description: An experimental database-less author blog made with Node and Express.
+  image: projects/blog.jpg
+  url: node-blog-4yht.onrender.com
+  code_url: https://github.com/RLMP44/node-blog
+  days: 6
+  developers: 1
+  cups: 6
+  tech: <i class="devicon-nodejs-plain"></i> <i class="devicon-express-original"></i> <i class="devicon-html5-plain-wordmark"></i> <i class="devicon-css3-plain-wordmark"></i> <i class="devicon-javascript-plain"></i> <i class="devicon-figma-plain"></i>
+  role: Sole developer
+
 - name: Kanye Quotes
   description: A collection of Kanye West's "best" quotes. Click his face for a dope quote!
   image: projects/kanye-west-quotes-remade.png
@@ -43,17 +76,6 @@
   cups: 1
   tech: <i class="devicon-python-plain"></i><i class="devicon-pycharm-plain"> / </i><i class="devicon-html5-plain-wordmark"></i><i class="devicon-css3-plain-wordmark"></i><i class="devicon-javascript-plain"></i>
   role: Sole developer
-
-- name: Spill the Beans
-  description: A recipe app for the family, minus all the extra jargon. Currently a work-in-progress as a personal weekend project.
-  image: projects/spillthebeans.png
-  url:
-  code_url: https://github.com/RLMP44/SpillTheBeans
-  days: 5
-  developers: 1
-  cups: 15
-  tech: <i class="devicon-rails-plain"></i> <i class="devicon-html5-plain-wordmark"></i> <i class="devicon-css3-plain-wordmark"></i>
-  role: Full-stack developer
 
 - name: Workout Tracking
   description: Automatically track your workouts in Google Sheets using the Nutritionix API and the Sheety API. Currently adding more features!
@@ -66,17 +88,6 @@
   tech: <i class="devicon-python-plain"></i><i class="devicon-pycharm-plain"></i>
   role: Sole developer
 
-- name: Movie Watch List
-  description: An app that lets the user create a list of movies
-  image: projects/watchlist.png
-  url: https://immense-eyrie-16070-cb147c2a5900.herokuapp.com
-  code_url: https://github.com/RLMP44/rails-watch-list
-  days: 1
-  developers: 1
-  cups: 7
-  tech: <i class="devicon-rails-plain"></i> <i class="devicon-html5-plain-wordmark"></i> <i class="devicon-css3-plain-wordmark"></i> <i class="devicon-javascript-plain"></i> <i class="devicon-heroku-original-wordmark"></i>
-  role: Full-stack developer
-
 - name: Gif Searcher
   description: Look up all sorts of gifs and enjoy the display!
   image: projects/gif-searcher-sm.png
@@ -87,6 +98,17 @@
   cups: 1
   tech: <i class="devicon-ruby-plain-wordmark"></i> <i class="devicon-react-original-wordmark"></i> <i class="devicon-html5-plain-wordmark"></i> <i class="devicon-css3-plain-wordmark"></i> <i class="devicon-javascript-plain"></i>
   role: Front-end developer
+
+- name: Movie Watch List
+  description: An app that lets the user create a list of movies
+  image: projects/watchlist.png
+  url: https://immense-eyrie-16070-cb147c2a5900.herokuapp.com
+  code_url: https://github.com/RLMP44/rails-watch-list
+  days: 1
+  developers: 1
+  cups: 7
+  tech: <i class="devicon-ruby-plain-wordmark"></i> <i class="devicon-rails-plain"></i> <i class="devicon-html5-plain-wordmark"></i> <i class="devicon-css3-plain-wordmark"></i> <i class="devicon-javascript-plain"></i> <i class="devicon-heroku-original-wordmark"></i>
+  role: Full-stack developer
 
 - name: Screensaver
   description: A simple screensaver side project made while learning about HTML5 Canvas. Watch 100 circles bounce across your screen!
@@ -173,5 +195,16 @@
   days: 9
   developers: 4
   cups: 46
-  tech: <i class="devicon-rails-plain"></i> <i class="devicon-html5-plain-wordmark"></i> <i class="devicon-css3-plain-wordmark"></i> <i class="devicon-javascript-plain"></i> <i class="devicon-figma-plain"></i>
+  tech: <i class="devicon-ruby-plain-wordmark"></i> <i class="devicon-rails-plain"></i> <i class="devicon-html5-plain-wordmark"></i> <i class="devicon-css3-plain-wordmark"></i> <i class="devicon-javascript-plain"></i> <i class="devicon-figma-plain"></i>
+  role: Lead developer
+
+- name: Secret Project
+  description: Currently working on a new team API. Stay tuned!
+  image: projects/top-secret.png
+  url: https://github.com/RLMP44/SeatSensei
+  code_url: https://github.com/RLMP44
+  days: 0
+  developers: 2
+  cups: 0
+  tech: <i class="devicon-html5-plain-wordmark"></i> <i class="devicon-css3-plain-wordmark"></i> <i class="devicon-javascript-plain"></i>
   role: Lead developer
