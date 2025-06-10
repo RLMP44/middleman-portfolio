@@ -31,11 +31,28 @@ page '/*.txt', layout: false
 # Methods defined in the helpers block are available in templates
 # https://middlemanapp.com/basics/helper-methods/
 
-# helpers do
-#   def some_helper
-#     'Helping'
-#   end
-# end
+helpers do
+  def convert_to_bionic(words)
+    words_array = words.split(' ')
+    bionic_array = []
+    words_array.each do |word|
+      no_punc_word = word.chomp(word[-1]) if has_punctuation?(word)
+      num_to_highlight = get_amount_to_highlight(no_punc_word || word)
+      first_half = word[0, num_to_highlight]
+      second_half = word[num_to_highlight..]
+      bionic_array.push("<strong>#{first_half}</strong>#{second_half}")
+    end
+    bionic_array.join(' ')
+  end
+
+  def has_punctuation?(word)
+    word[-1] =~ /\p{P}/ ? true : false
+  end
+
+  def get_amount_to_highlight(word)
+    (word.length / 2).ceil
+  end
+end
 
 # Build-specific configuration
 # https://middlemanapp.com/advanced/configuration/#environment-specific-settings
