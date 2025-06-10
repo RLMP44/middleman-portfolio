@@ -38,8 +38,8 @@ helpers do
     words_array.each do |word|
       no_punc_word = word.chomp(word[-1]) if has_punctuation?(word)
       num_to_highlight = get_amount_to_highlight(no_punc_word || word)
-      first_half = word[0, num_to_highlight]
-      second_half = word[num_to_highlight..]
+      first_half = word[0, num_to_highlight + 1]
+      second_half = word[num_to_highlight + 1..]
       bionic_array.push("<strong>#{first_half}</strong>#{second_half}")
     end
     bionic_array.join(' ')
