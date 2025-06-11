@@ -14,6 +14,7 @@
       <%= image_tag project.image, alt: "project image" %>
       <%# set text alignment %>
       <div class=<%= index % 2 == 1 ? 'right-align' : '' %>>
+        <h2><%= convert_to_bionic("experience") %></h2>
         <h2><%= convert_to_bionic(project.name) %></h2>
         <p>Role: <strong><%= project.role %></strong></p>
         <h3><%= convert_to_bionic(project.description) %></h3>

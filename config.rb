@@ -72,8 +72,8 @@ helpers do
   end
 
   def highlight_word(word, num_to_highlight)
-    first_half = word[0, num_to_highlight + 1]
-    second_half = word[num_to_highlight + 1..]
+    first_half = word[0, num_to_highlight]
+    second_half = word[num_to_highlight..]
     return "<strong>#{first_half}</strong>#{second_half}"
   end
 
@@ -82,7 +82,7 @@ helpers do
   end
 
   def get_amount_to_highlight(word)
-    (word.length / 2).ceil
+    (word.length.to_f / 2).ceil
   end
 end
 
