@@ -1,6 +1,6 @@
 - name: Suite Fit
   description: A moving app that allows users to see
-    if their furniture/items will fit in an apartment before moving.
+    if their furniture will fit in an apartment before moving.
   image: projects/sf_landing.png
   url: https://suite-fit-rlmp44-5e8ff51180b0.herokuapp.com/
   code_url: https://github.com/RLMP44/SuiteFit

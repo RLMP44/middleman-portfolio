@@ -36,13 +36,45 @@ helpers do
     words_array = words.split(' ')
     bionic_array = []
     words_array.each do |word|
-      no_punc_word = word.chomp(word[-1]) if has_punctuation?(word)
-      num_to_highlight = get_amount_to_highlight(no_punc_word || word)
-      first_half = word[0, num_to_highlight + 1]
-      second_half = word[num_to_highlight + 1..]
-      bionic_array.push("<strong>#{first_half}</strong>#{second_half}")
+      bionic_word = ''
+      if has_punctuation?(word) && has_hyphen?(word)
+        updated_word = word.chomp(word[-1])
+        bionic_word = handle_hyphen(updated_word)
+      elsif has_hyphen?(word)
+        bionic_word = handle_hyphen(word)
+      elsif has_punctuation?(word)
+        updated_word = word.chomp(word[-1])
+        num_to_highlight = get_amount_to_highlight(updated_word)
+        bionic_word = highlight_word(word, num_to_highlight)
+      else
+        num_to_highlight = get_amount_to_highlight(word)
+        bionic_word = highlight_word(word, num_to_highlight)
+      end
+      # no_punc_word = word.chomp(word[-1]) if has_punctuation?(word)
+
+      # num_to_highlight = get_amount_to_highlight(no_punc_word || word)
+      # bionic_word = highlight_word(word, num_to_highlight)
+      bionic_array.push(bionic_word)
     end
     bionic_array.join(' ')
+  end
+
+  def has_hyphen?(word)
+    word.include?('-')
+  end
+
+  def handle_hyphen(word)
+    word_array = word.split('-')
+    word_array.each.map do |word|
+      num_to_highlight = get_amount_to_highlight(word)
+      highlight_word(word, num_to_highlight)
+    end.join('-')
+  end
+
+  def highlight_word(word, num_to_highlight)
+    first_half = word[0, num_to_highlight + 1]
+    second_half = word[num_to_highlight + 1..]
+    return "<strong>#{first_half}</strong>#{second_half}"
   end
 
   def has_punctuation?(word)
