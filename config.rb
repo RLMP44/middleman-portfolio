@@ -39,9 +39,9 @@ helpers do
       bionic_word = ''
       if has_punctuation?(word) && has_hyphen?(word)
         updated_word = word.chomp(word[-1])
-        bionic_word = handle_hyphen(updated_word)
+        bionic_word = handle_hyphen(updated_word, word)
       elsif has_hyphen?(word)
-        bionic_word = handle_hyphen(word)
+        bionic_word = handle_hyphen(nil, word)
       elsif has_punctuation?(word)
         updated_word = word.chomp(word[-1])
         num_to_highlight = get_amount_to_highlight(updated_word)
@@ -50,10 +50,6 @@ helpers do
         num_to_highlight = get_amount_to_highlight(word)
         bionic_word = highlight_word(word, num_to_highlight)
       end
-      # no_punc_word = word.chomp(word[-1]) if has_punctuation?(word)
-
-      # num_to_highlight = get_amount_to_highlight(no_punc_word || word)
-      # bionic_word = highlight_word(word, num_to_highlight)
       bionic_array.push(bionic_word)
     end
     bionic_array.join(' ')
@@ -63,12 +59,13 @@ helpers do
     word.include?('-')
   end
 
-  def handle_hyphen(word)
-    word_array = word.split('-')
-    word_array.each.map do |word|
+  def handle_hyphen(no_punc_word, original_word)
+    word_array = no_punc_word ? no_punc_word.split('-') : original_word.split('-')
+    new_word = word_array.each.map do |word|
       num_to_highlight = get_amount_to_highlight(word)
       highlight_word(word, num_to_highlight)
     end.join('-')
+    return no_punc_word ? (new_word + original_word[-1]) : new_word
   end
 
   def highlight_word(word, num_to_highlight)
