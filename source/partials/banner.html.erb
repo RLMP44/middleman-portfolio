@@ -1,13 +1,14 @@
 <div class="row justify-content-center banner align-items-end">
+  <div class="bionic-container">
+    <div class="btn" onclick="modifyText()" alt="Neurotypical">NT</div>
+    <div class="btn" onclick="modifyText()" alt="Neurodivergent">ND</div>
+  </div>
   <div class="col-12 d-flex flex-column justify-content-center align-items-center h-100">
     <div class="profile-images">
       <%= image_tag "../../images/avatar.jpg", alt: "profile photo", class: 'avatar' %>
-      <%# <div class="profile-border"> %>
-      <%#= image_tag "../../images/brown-leaf-border.png", alt: "tea leaf border", class: 'leaf-border' %>
-      <%# </div> %>
     </div>
     <h1 class="title-main">Rachael Momber</h1>
-    <h4 style="text-align: center"><%= convert_to_bionic("Building web apps one cup of tea at a time") %></h4>
+    <h4 style="text-align: center" class="bionic-target">Building web apps one cup of tea at a time</h4>
     <%# social links start %>
     <div class="row my-3">
       <div class="col-12">
