@@ -6,22 +6,22 @@ function modifyText() {
       // reset to original
       block.textContent = block.textContent
     } else {
-      var bionicText = convert_to_bionic(block.textContent);
+      var bionicText = convertToBionic(block.textContent);
       block.innerHTML = bionicText;
     }
   })
 }
 
-function convert_to_bionic(words) {
+function convertToBionic(words) {
   var wordsArray = words.split(' ');
   var bionicArray = [];
   wordsArray.forEach((word) => {
     bionicWord = '';
     if (hasPunctuation(word) && hasHyphen(word)) {
       updatedWord = word.slice(0, -1);
-      bionicWord = handle_hyphen(updatedWord, word);
+      bionicWord = handleHyphen(updatedWord, word);
     } else if (hasHyphen(word)) {
-      bionicWord = handle_hyphen(null, word);
+      bionicWord = handleHyphen(null, word);
     } else if (hasPunctuation(word)) {
       updatedWord = word.slice(0, -1);
       numToHighlight = getAmountToHighlight(updatedWord);
@@ -39,7 +39,7 @@ function hasHyphen(word) {
   return word.includes('-');
 };
 
-function handle_hyphen(noPuncWord, originalWord) {
+function handleHyphen(noPuncWord, originalWord) {
   var wordArray = noPuncWord ? noPuncWord.split('-') : originalWord.split('-');
   var newWord = wordArray.map((word) => {
     const numToHighlight = getAmountToHighlight(word);

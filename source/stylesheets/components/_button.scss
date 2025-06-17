@@ -15,3 +15,32 @@
   right: 0;
   bottom: 0;
 }
+
+.bionic-container {
+  position: absolute;
+  display: inline-block;
+  cursor: pointer;
+  top: 5%;
+  left: 5%;
+  box-shadow: 2px 2px 5px black;
+}
+
+.bionic-container:hover .btn .tip {
+  visibility: visible;
+}
+
+.tip {
+  visibility: hidden;
+  background-color: #80808061;
+  color: black;
+  font-size: small;
+  text-align: center;
+  padding: 5px;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translateY(50%);
+  border-radius: 5px;
+  white-space: nowrap;
+  z-index: 1;
+}

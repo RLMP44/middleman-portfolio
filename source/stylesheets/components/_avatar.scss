@@ -1,6 +1,5 @@
 .avatar {
   width: 200px;
-  // position: relative;
   border-radius: 50%;
   border-image-source: url(../../images/brown-leaf-border-sm.png);
   border-image-outset: 56px 80px 56px 50px;
@@ -12,10 +11,8 @@
 .leaf-border {
   width: 319px;
   height: 350px;
-  // position: absolute;
   top: 17%;
   right: 38.5%;
-  // z-index: -1;
 }
 
 .avatar-large {
